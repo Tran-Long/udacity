@@ -1,0 +1,113 @@
+{
+    "@odata.context": "https://longth28css.search.windows.net/$metadata#skillsets/$entity",
+    "@odata.etag": "\"0x8DA63E7C0C162E4\"",
+    "name": "azureblob-skillset",
+    "description": "Skillset created from the portal. skillsetName: azureblob-skillset; contentField: content; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+    "skills": [
+      {
+        "@odata.type": "#Microsoft.Skills.Text.V3.EntityRecognitionSkill",
+        "name": "#1",
+        "description": null,
+        "context": "/document/content",
+        "categories": [
+          "Product",
+          "PhoneNumber",
+          "Person",
+          "Quantity",
+          "Organization",
+          "IPAddress",
+          "URL",
+          "Email",
+          "Event",
+          "Skill",
+          "Location",
+          "PersonType",
+          "Address",
+          "DateTime"
+        ],
+        "defaultLanguageCode": "en",
+        "minimumPrecision": null,
+        "modelVersion": null,
+        "inputs": [
+          {
+            "name": "text",
+            "source": "/document/content"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "persons",
+            "targetName": "people"
+          },
+          {
+            "name": "organizations",
+            "targetName": "organizations"
+          }
+        ]
+      },
+      {
+        "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+        "name": "#2",
+        "description": null,
+        "context": "/document/content",
+        "defaultLanguageCode": "en",
+        "maxKeyPhraseCount": null,
+        "modelVersion": null,
+        "inputs": [
+          {
+            "name": "text",
+            "source": "/document/content"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "keyPhrases",
+            "targetName": "keyphrases"
+          }
+        ]
+      },
+      {
+        "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+        "name": "#3",
+        "description": "",
+        "context": "/document",
+        "uri": "https://longth28fa.azurewebsites.net/api/springerlookup?code=PFLfx3gXvgmyOBhPVaXDMPbeFxTHvGeiKoQOugre_j18AzFua2VmYg==",
+        "httpMethod": "POST",
+        "timeout": "PT30S",
+        "batchSize": 10,
+        "degreeOfParallelism": 1,
+        "inputs": [
+          {
+            "name": "ArticleName",
+            "source": "/document/metadata_title"
+          }
+        ],
+        "outputs": [
+          {
+            "name": "publicationName",
+            "targetName": "publicationname"
+          },
+          {
+            "name": "publisher",
+            "targetName": "publisher"
+          },
+          {
+            "name": "doi",
+            "targetName": "doi"
+          },
+          {
+            "name": "publicationDate",
+            "targetName": "publicationdate"
+          }
+        ],
+        "httpHeaders": {}
+      }
+    ],
+    "cognitiveServices": {
+      "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+      "description": "/subscriptions/6c39f60b-2bb1-4e37-ad64-faaf30beaca4/resourceGroups/aind-200690/providers/Microsoft.CognitiveServices/accounts/longth28cs",
+      "key": "fbe035e0f5514c949704c6b34a67f493"
+    },
+    "knowledgeStore": null,
+    "encryptionKey": null
+}

@@ -1,0 +1,452 @@
+1) 
+- Query: search=*&$filter=role eq 'developer' and source eq 'Company Moodle'
+- Result:
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "PartitionKey": "company-moodle",
+      "Key": "company-moodle9700e1dc-b293-4306-9e1b-0d345863db54",
+      "description": "This course will teach you the specific ways our company uses Git. You will learn details for comments, branching, pull requests, and other procsses",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "beginner",
+      "product": "git",
+      "rating_average": 4.5,
+      "rating_count": 125,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Git Workflow ",
+      "url": "https://www.example.com/course3",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Claudia Blackman",
+          "description": "Claudia is our senior DevOps engineer. She is charged with overseeing our DevOps operations and has been with the company for 2 years. Claudia enjoys downhill skiing and is a member of the local Search & Rescue Team."
+        }
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "company-moodle",
+      "Key": "company-moodled3f0c955-ac6e-4ced-b91b-ffcef3e8cede",
+      "description": "For developers, learn our best practices for writing secure code for web, server, and desktop development",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.4,
+      "rating_count": 132,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Code security",
+      "url": "https://www.example.com/course9",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "company-moodle",
+      "Key": "company-moodleb51ede14-025f-49ad-9e9e-44ad284eedda",
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 3.8,
+      "rating_count": 101,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "DevOps for Dev",
+      "url": "https://www.example.com/course4",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Claudia Blackman",
+          "description": "Claudia is our senior DevOps engineer. She is charged with overseeing our DevOps operations and has been with the company for 2 years. Claudia enjoys downhill skiing and is a member of the local Search & Rescue Team."
+        }
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "company-moodle",
+      "Key": "company-moodle3cbb3800-2554-4121-bb3a-f365deb0c3b6",
+      "description": "Learn our best practices for various tools such as Leaflet",
+      "duration": 2,
+      "instructor": "Robert Gillis",
+      "level": "intermediate",
+      "product": "leaflet",
+      "rating_average": 3.9,
+      "rating_count": 28,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Maps",
+      "url": "https://www.example.com/course6",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Robert Gillis",
+          "description": "Robert is our GIS specialist in charge of making beautiful maps for our users. He has been with the company for 8 years and enjoys hiking, fishing, and any other outdoor activity."
+        }
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "company-moodle",
+      "Key": "company-moodle278d299e-ef0e-47fb-8e98-5a31a073519c",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "duration": 2,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.8,
+      "rating_count": 115,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Security for database code",
+      "url": "https://www.example.com/course7",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time."
+        }
+      ]
+    }
+  ]
+}
+
+
+2) 
+- Query: search='Claudia Blackman'&facet=role
+- Result:
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.facets": {
+    "role": [
+      {
+        "count": 2,
+        "value": "developer"
+      },
+      {
+        "count": 1,
+        "value": "admin"
+      }
+    ]
+  },
+  "value": [
+    {
+      "@search.score": 6.013159,
+      "PartitionKey": "company-moodle",
+      "Key": "company-moodle9700e1dc-b293-4306-9e1b-0d345863db54",
+      "description": "This course will teach you the specific ways our company uses Git. You will learn details for comments, branching, pull requests, and other procsses",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "beginner",
+      "product": "git",
+      "rating_average": 4.5,
+      "rating_count": 125,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Git Workflow ",
+      "url": "https://www.example.com/course3",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Claudia Blackman",
+          "description": "Claudia is our senior DevOps engineer. She is charged with overseeing our DevOps operations and has been with the company for 2 years. Claudia enjoys downhill skiing and is a member of the local Search & Rescue Team."
+        }
+      ]
+    },
+    {
+      "@search.score": 1.2274035,
+      "PartitionKey": "company-moodle",
+      "Key": "company-moodle578a3319-aa7c-4d2f-b6a4-39e9638b0a85",
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "duration": 5,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 4.9,
+      "rating_count": 56,
+      "role": "admin",
+      "source": "Company Moodle",
+      "title": "DevOps for Ops",
+      "url": "https://www.example.com/course5",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Claudia Blackman",
+          "description": "Claudia is our senior DevOps engineer. She is charged with overseeing our DevOps operations and has been with the company for 2 years. Claudia enjoys downhill skiing and is a member of the local Search & Rescue Team."
+        }
+      ]
+    },
+    {
+      "@search.score": 1.2274035,
+      "PartitionKey": "company-moodle",
+      "Key": "company-moodleb51ede14-025f-49ad-9e9e-44ad284eedda",
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 3.8,
+      "rating_count": 101,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "DevOps for Dev",
+      "url": "https://www.example.com/course4",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Claudia Blackman",
+          "description": "Claudia is our senior DevOps engineer. She is charged with overseeing our DevOps operations and has been with the company for 2 years. Claudia enjoys downhill skiing and is a member of the local Search & Rescue Team."
+        }
+      ]
+    }
+  ]
+}
+
+3) 
+- Query: search=*&$filter=source eq 'Company Moodle' and rating_count gt 500&facet=level
+- Result:
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.facets": {
+    "level": [
+      {
+        "count": 4,
+        "value": "beginner"
+      }
+    ]
+  },
+  "value": [
+    {
+      "@search.score": 1,
+      "PartitionKey": "company-moodle",
+      "Key": "company-moodle30e3c6e5-9415-4d85-8229-c2133203c535",
+      "description": "Learn the policies related to the distribution and use of computers, phones, software, and other technology",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.9,
+      "rating_count": 550,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Technology Policies ",
+      "url": "https://www.example.com/course2",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Mike Montoya",
+          "description": "Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events."
+        }
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "company-moodle",
+      "Key": "company-moodlec6b7fbd0-7390-4370-ab77-45027596b520",
+      "description": "Understand ways you can be more healthy in the work environment including what ergonomic equipment is available to you",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.6,
+      "rating_count": 525,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Workplace Health",
+      "url": "https://www.example.com/course13",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Mike Montoya",
+          "description": "Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events."
+        }
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "company-moodle",
+      "Key": "company-moodle5b293283-81e6-4f89-a0ab-7053988d6f6a",
+      "description": "Learn how to track billable and non-billable hours by assigning time to projects and other relevant time codes",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.8,
+      "rating_count": 540,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Time Tracking ",
+      "url": "https://www.example.com/course1",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Mike Montoya",
+          "description": "Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events."
+        }
+      ]
+    },
+    {
+      "@search.score": 1,
+      "PartitionKey": "company-moodle",
+      "Key": "company-moodle17b1eedc-0e96-4e5b-8199-83a484388efe",
+      "description": "Learn our internal best practices for using the O365 suite including email signatures, file storage and other issues",
+      "duration": 2,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "product": "O365",
+      "rating_average": 4.6,
+      "rating_count": 510,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "O365",
+      "url": "https://www.example.com/course10",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Gerald Dominguez",
+          "description": "Gerald is a Junior IT Administrator and has been with the company for 1 year. Gerald played NCAA soccer and is a part-time soccer coach on weekends. "
+        }
+      ]
+    }
+  ]
+}
+
+4) 
+- Query: search='Business Research'
+- Result:
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 2.9676888,
+      "content": "",
+      "metadata_storage_path": "aHR0cHM6Ly9sb25ndGgyOHNhLmJsb2IuY29yZS53aW5kb3dzLm5ldC9wYXBlcnMvSyVDMyVCNmNobGluZy1XZWhuZXIyMDIwX0FydGljbGVfRGlzY3JpbWluYXRlZEJ5QW5BbGdvcml0aG1BU3lzLnBkZg2",
+      "metadata_author": "Alina Köchling ",
+      "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+      "metadata_creation_date": "2020-11-19T15:45:16Z",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [],
+      "publicationName": "Business Research",
+      "publisher": "Springer",
+      "doi": "10.1007/s40685-020-00134-w",
+      "publicationDate": "2020-11-01"
+    }
+  ]
+}
+
+5) 
+- Query: search='EURASIP', 'social network'
+- Result:
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 2.7136145,
+      "content": "",
+      "metadata_storage_path": "aHR0cHM6Ly9sb25ndGgyOHNhLmJsb2IuY29yZS53aW5kb3dzLm5ldC9wYXBlcnMvczEzNjQwLTAyMC0wMDU0NS16LnBkZg2",
+      "metadata_author": "Haoliang Cui",
+      "metadata_title": "A classification method for social information of sellers on social network",
+      "metadata_creation_date": "2021-01-12T23:22:39Z",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [],
+      "publicationName": "EURASIP Journal on Image and Video Processing",
+      "publisher": "Springer",
+      "doi": "10.1186/s13640-020-00545-z",
+      "publicationDate": "2021-01-14"
+    },
+    {
+      "@search.score": 2.6546507,
+      "content": "",
+      "metadata_storage_path": "aHR0cHM6Ly9sb25ndGgyOHNhLmJsb2IuY29yZS53aW5kb3dzLm5ldC9wYXBlcnMvczQwNTM3LTAxOS0wMTg0LTUucGRm0",
+      "metadata_author": "Tu Nguyen Thi Ngoc ",
+      "metadata_title": "Mining aspects of customer’s review on the social network",
+      "metadata_creation_date": "2019-02-26T14:27:28Z",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [],
+      "publicationName": "Journal of Big Data",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-019-0184-5",
+      "publicationDate": "2019-02-28"
+    },
+    {
+      "@search.score": 1.0005182,
+      "content": "",
+      "metadata_storage_path": "aHR0cHM6Ly9sb25ndGgyOHNhLmJsb2IuY29yZS53aW5kb3dzLm5ldC9wYXBlcnMvczEzNjQwLTAxOC0wMzczLTgucGRm0",
+      "metadata_author": "Boping Zhang",
+      "metadata_title": "Augmented reality virtual glasses try-on technology based on iOS platform",
+      "metadata_creation_date": "2018-11-23T11:51:48Z",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [],
+      "publicationName": "EURASIP Journal on Image and Video Processing",
+      "publisher": "Springer",
+      "doi": "10.1186/s13640-018-0373-8",
+      "publicationDate": "2018-11-27"
+    },
+    {
+      "@search.score": 0.49573535,
+      "content": "",
+      "metadata_storage_path": "aHR0cHM6Ly9sb25ndGgyOHNhLmJsb2IuY29yZS53aW5kb3dzLm5ldC9wYXBlcnMvczQxMTA5LTAyMC0wMDMzMC14LnBkZg2",
+      "metadata_author": " Shun Kodate ",
+      "metadata_title": "Detecting problematic transactions in a consumer-to-consumer e-commerce network",
+      "metadata_creation_date": "2020-11-12T15:20:34Z",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [],
+      "publicationName": "Applied Network Science",
+      "publisher": "Springer",
+      "doi": "10.1007/s41109-020-00330-x",
+      "publicationDate": "2020-11-16"
+    }
+  ]
+}

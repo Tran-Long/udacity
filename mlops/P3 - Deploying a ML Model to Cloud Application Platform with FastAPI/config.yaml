@@ -1,0 +1,24 @@
+data:
+  path: data/census.csv
+  cat_features: 
+  - workclass
+  - education
+  - marital-status
+  - occupation
+  - relationship
+  - race
+  - sex
+  - native-country
+  label: salary
+
+model:  
+  saved_model_path: ./model/dt.pkl
+  test_size: 0.2
+  decision_tree:
+    max_depth: 15
+    min_samples_split: 4
+    min_samples_leaf: 3
+    random_state: 37
+  
+slices:
+  cat_slices_result_path: ./results/slice_output.txt

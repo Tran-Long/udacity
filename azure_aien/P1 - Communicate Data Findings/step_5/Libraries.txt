@@ -1,0 +1,20 @@
+requests
+urllib.parse.urlparse
+io.BytesIO
+PIL.Image
+PIL.ImageDraw
+matplotlib.pyplot
+glob
+os, time, uuid
+io
+datetime
+pandas
+azure.cognitiveservices.vision.customvision.prediction.CustomVisionPredictionClient
+azure.core.credentials.AzureKeyCredential
+azure.ai.formrecognizer.FormRecognizerClient
+video_indexer.VideoIndexer
+azure.cognitiveservices.vision.face.FaceClient
+azure.cognitiveservices.vision.face.models.TrainingStatusType
+msrest.authentication.CognitiveServicesCredentials
+msrest.authentication.ApiKeyCredentials
+azure.storage.blob.BlobServiceClient

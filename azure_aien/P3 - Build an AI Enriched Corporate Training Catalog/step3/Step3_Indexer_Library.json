@@ -1,0 +1,63 @@
+{
+    "@odata.context": "https://longth28css.search.windows.net/$metadata#indexers/$entity",
+    "@odata.etag": "\"0x8DA63EAF4581BBF\"",
+    "name": "azureblob-indexer",
+    "description": "",
+    "dataSourceName": "curated-library",
+    "skillsetName": "azureblob-skillset",
+    "targetIndexName": "azureblob-index",
+    "disabled": null,
+    "schedule": null,
+    "parameters": {
+      "batchSize": null,
+      "maxFailedItems": 0,
+      "maxFailedItemsPerBatch": 0,
+      "base64EncodeKeys": null,
+      "configuration": {
+        "dataToExtract": "allMetadata",
+        "parsingMode": "default"
+      }
+    },
+    "fieldMappings": [
+      {
+        "sourceFieldName": "metadata_storage_path",
+        "targetFieldName": "metadata_storage_path",
+        "mappingFunction": {
+          "name": "base64Encode",
+          "parameters": null
+        }
+      }
+    ],
+    "outputFieldMappings": [
+      {
+        "sourceFieldName": "/document/content/people",
+        "targetFieldName": "people"
+      },
+      {
+        "sourceFieldName": "/document/content/organizations",
+        "targetFieldName": "organizations"
+      },
+      {
+        "sourceFieldName": "/document/content/keyphrases",
+        "targetFieldName": "keyphrases"
+      },
+      {
+        "sourceFieldName": "/document/publicationname",
+        "targetFieldName": "publicationName"
+      },
+      {
+        "sourceFieldName": "/document/publisher",
+        "targetFieldName": "publisher"
+      },
+      {
+        "sourceFieldName": "/document/doi",
+        "targetFieldName": "doi"
+      },
+      {
+        "sourceFieldName": "/document/publicationdate",
+        "targetFieldName": "publicationDate"
+      }
+    ],
+    "cache": null,
+    "encryptionKey": null
+}

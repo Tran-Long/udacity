@@ -1,0 +1,998 @@
+1)
+- Query: search=*&$filter=rating_average eq 5
+- Result: 
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "Key": "ms-learn04092659-deab-43ad-ad0e-ef2992f0af29",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn6524b8f2-db34-4e39-8400-636d1d5cd9ff",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn8e9bb2f6-e1af-43be-a4c5-7cd0e82ce275",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learnf6430b41-7899-4635-ba67-bbaf2076aed4",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn11b92b3c-714a-481e-adda-f46285e2a090",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn154ef75f-9956-45c9-8152-8e03cc1a2bba",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "technology-manager",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn1f8f9833-ee15-4ea5-9597-aa05fd895653",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "student",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn4157d54e-86f5-4b5e-a94c-cb0ee392ee58",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn33538376-541c-4366-8290-a20873ee074d",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learna7e5e71d-493b-47bd-8f71-983ec50ba877",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learncc436468-571e-41e5-aaf4-7563b7fd0a95",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "student",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn821d3262-1d7a-4a63-9d28-d06f71b5ead9",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "technology-manager",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ]
+}
+
+
+2)
+- Query: search=*&$filter=level eq 'advanced' and rating_average gt 4.75
+- Result: 
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "Key": "company-moodle278d299e-ef0e-47fb-8e98-5a31a073519c",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "duration": 2,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.8,
+      "rating_count": 115,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Security for database code",
+      "url": "https://www.example.com/course7",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}
+
+3)
+- Query: search=*&$filter=level eq 'advanced' and role eq 'developer'
+- Result: 
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "Key": "ms-learn74c76924-15b0-42ab-976f-193e03dcf6d8",
+      "description": "Learn how to secure Cognitive Services to prevent data loss and privacy violations for user data that may be a part of the solution.",
+      "duration": 37,
+      "instructor": "",
+      "level": "advanced",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.67,
+      "rating_count": 27,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Secure Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/secure-cognitive-services/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn0eb748ef-3b3f-447f-8f18-08f702165f4c",
+      "description": "Learn how to secure Cognitive Services to prevent data loss and privacy violations for user data that may be a part of the solution.",
+      "duration": 37,
+      "instructor": "",
+      "level": "advanced",
+      "product": "azure-active-directory",
+      "rating_average": 4.67,
+      "rating_count": 27,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Secure Cognitive Services",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/secure-cognitive-services/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn1f252bc6-f722-4add-a681-09b888e4b71c",
+      "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "duration": 18,
+      "instructor": "",
+      "level": "advanced",
+      "product": "azure-language-understanding",
+      "rating_average": 4.75,
+      "rating_count": 137,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learndce8e311-b379-4016-9708-8a446004825c",
+      "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "duration": 18,
+      "instructor": "",
+      "level": "advanced",
+      "product": "azure",
+      "rating_average": 4.75,
+      "rating_count": 137,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle278d299e-ef0e-47fb-8e98-5a31a073519c",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "duration": 2,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.8,
+      "rating_count": 115,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Security for database code",
+      "url": "https://www.example.com/course7",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learnba89b5c5-fefd-459e-843e-0987a3dfbbd7",
+      "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "duration": 18,
+      "instructor": "",
+      "level": "advanced",
+      "product": "azure-cognitive-services",
+      "rating_average": 4.75,
+      "rating_count": 137,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ]
+}
+
+4)
+- Query: search=*&facet=level&$filter=rating_average eq 5
+- Result: 
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.facets": {
+    "level": [
+      {
+        "count": 12,
+        "value": "beginner"
+      }
+    ]
+  },
+  "value": [
+    {
+      "@search.score": 1,
+      "Key": "ms-learn04092659-deab-43ad-ad0e-ef2992f0af29",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn6524b8f2-db34-4e39-8400-636d1d5cd9ff",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn8e9bb2f6-e1af-43be-a4c5-7cd0e82ce275",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learnf6430b41-7899-4635-ba67-bbaf2076aed4",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn11b92b3c-714a-481e-adda-f46285e2a090",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn154ef75f-9956-45c9-8152-8e03cc1a2bba",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "technology-manager",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn1f8f9833-ee15-4ea5-9597-aa05fd895653",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "vs",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "student",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn4157d54e-86f5-4b5e-a94c-cb0ee392ee58",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn33538376-541c-4366-8290-a20873ee074d",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "administrator",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learna7e5e71d-493b-47bd-8f71-983ec50ba877",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "devops-engineer",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learncc436468-571e-41e5-aaf4-7563b7fd0a95",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "student",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "ms-learn821d3262-1d7a-4a63-9d28-d06f71b5ead9",
+      "description": "In this module, we'll authenticate to GitHub, create a local Git repository, and push the repository to GitHub by using the Git tooling experience in Visual Studio 2019. We'll add and modify files, stage and commit changes, and then finally push to your remote.",
+      "duration": 38,
+      "instructor": "",
+      "level": "beginner",
+      "product": "github",
+      "rating_average": 5,
+      "rating_count": 8,
+      "role": "technology-manager",
+      "source": "MS Learn",
+      "title": "Get started with Git and GitHub in Visual Studio",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/visual-studio-github-push/?WT.mc_id=api_CatalogApi",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "ms",
+        "learn"
+      ]
+    }
+  ]
+}
+
+
+5)
+- Query: search=*&facet=role &$filter=duration lt 5
+- Result: 
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.facets": {
+    "role": [
+      {
+        "count": 5,
+        "value": "all"
+      },
+      {
+        "count": 5,
+        "value": "developer"
+      },
+      {
+        "count": 2,
+        "value": "architect"
+      },
+      {
+        "count": 1,
+        "value": "admin"
+      }
+    ]
+  },
+  "value": [
+    {
+      "@search.score": 1,
+      "Key": "company-moodle30e3c6e5-9415-4d85-8229-c2133203c535",
+      "description": "Learn the policies related to the distribution and use of computers, phones, software, and other technology",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.9,
+      "rating_count": 550,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Technology Policies ",
+      "url": "https://www.example.com/course2",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle85ee725b-4ae0-4719-8785-ddf99e19faf1",
+      "description": "For administrators, learn our best practices for securing all databases",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.3,
+      "rating_count": 45,
+      "role": "admin",
+      "source": "Company Moodle",
+      "title": "Security for database admins",
+      "url": "https://www.example.com/course8",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle9700e1dc-b293-4306-9e1b-0d345863db54",
+      "description": "This course will teach you the specific ways our company uses Git. You will learn details for comments, branching, pull requests, and other procsses",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "beginner",
+      "product": "git",
+      "rating_average": 4.5,
+      "rating_count": 125,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Git Workflow ",
+      "url": "https://www.example.com/course3",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodled3f0c955-ac6e-4ced-b91b-ffcef3e8cede",
+      "description": "For developers, learn our best practices for writing secure code for web, server, and desktop development",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.4,
+      "rating_count": 132,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Code security",
+      "url": "https://www.example.com/course9",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodlec014cf36-2a83-4ded-bfe5-d62f405ba970",
+      "description": "This course will teach you best practices for communicating with your team while working remotely",
+      "duration": 1,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.7,
+      "rating_count": 325,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Remote work",
+      "url": "https://www.example.com/course11",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodlec6b7fbd0-7390-4370-ab77-45027596b520",
+      "description": "Understand ways you can be more healthy in the work environment including what ergonomic equipment is available to you",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.6,
+      "rating_count": 525,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Workplace Health",
+      "url": "https://www.example.com/course13",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodleb51ede14-025f-49ad-9e9e-44ad284eedda",
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 3.8,
+      "rating_count": 101,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "DevOps for Dev",
+      "url": "https://www.example.com/course4",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle6b5d3f55-eb02-499d-9775-2e0e25659e07",
+      "description": "Learn our company's Principles for the Responsible Use of AI",
+      "duration": 1,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.3,
+      "rating_count": 24,
+      "role": "architect",
+      "source": "Company Moodle",
+      "title": "Ethics in AI",
+      "url": "https://www.example.com/course12",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle5b293283-81e6-4f89-a0ab-7053988d6f6a",
+      "description": "Learn how to track billable and non-billable hours by assigning time to projects and other relevant time codes",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.8,
+      "rating_count": 540,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Time Tracking ",
+      "url": "https://www.example.com/course1",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle9df844fd-eefe-4880-8341-936732174bb5",
+      "description": "Learn our policies for utilizing encryption including key management for projects",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "NA",
+      "rating_average": 4.2,
+      "rating_count": 95,
+      "role": "architect",
+      "source": "Company Moodle",
+      "title": "Encryption and security",
+      "url": "https://www.example.com/course14",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle17b1eedc-0e96-4e5b-8199-83a484388efe",
+      "description": "Learn our internal best practices for using the O365 suite including email signatures, file storage and other issues",
+      "duration": 2,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "product": "O365",
+      "rating_average": 4.6,
+      "rating_count": 510,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "O365",
+      "url": "https://www.example.com/course10",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle3cbb3800-2554-4121-bb3a-f365deb0c3b6",
+      "description": "Learn our best practices for various tools such as Leaflet",
+      "duration": 2,
+      "instructor": "Robert Gillis",
+      "level": "intermediate",
+      "product": "leaflet",
+      "rating_average": 3.9,
+      "rating_count": 28,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Maps",
+      "url": "https://www.example.com/course6",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle278d299e-ef0e-47fb-8e98-5a31a073519c",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "duration": 2,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.8,
+      "rating_count": 115,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Security for database code",
+      "url": "https://www.example.com/course7",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}

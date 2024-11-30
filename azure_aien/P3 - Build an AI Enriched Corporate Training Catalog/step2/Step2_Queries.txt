@@ -1,0 +1,91 @@
+1)
+- Query: search="Claudia Blackman"
+- Result: 
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 2.160473,
+      "Key": "company-moodle9700e1dc-b293-4306-9e1b-0d345863db54",
+      "description": "This course will teach you the specific ways our company uses Git. You will learn details for comments, branching, pull requests, and other procsses",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "beginner",
+      "product": "git",
+      "rating_average": 4.5,
+      "rating_count": 125,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Git Workflow ",
+      "url": "https://www.example.com/course3",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 0.51623213,
+      "Key": "company-moodle578a3319-aa7c-4d2f-b6a4-39e9638b0a85",
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "duration": 5,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 4.9,
+      "rating_count": 56,
+      "role": "admin",
+      "source": "Company Moodle",
+      "title": "DevOps for Ops",
+      "url": "https://www.example.com/course5",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    },
+    {
+      "@search.score": 0.51623213,
+      "Key": "company-moodleb51ede14-025f-49ad-9e9e-44ad284eedda",
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 3.8,
+      "rating_count": 101,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "DevOps for Dev",
+      "url": "https://www.example.com/course4",
+      "people": [],
+      "organizations": [],
+      "keyphrases": [
+        "company",
+        "moodle"
+      ]
+    }
+  ]
+}
+
+2) 
+- Query: search="ios"
+- Result: 
+{
+  "@odata.context": "https://longth28css.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1.1097488,
+      "content": "",
+      "metadata_storage_path": "aHR0cHM6Ly9sb25ndGgyOHNhLmJsb2IuY29yZS53aW5kb3dzLm5ldC9wYXBlcnMvczEzNjQwLTAxOC0wMzczLTgucGRm0",
+      "metadata_author": "Boping Zhang",
+      "metadata_title": "Augmented reality virtual glasses try-on technology based on iOS platform",
+      "metadata_creation_date": "2018-11-23T11:51:48Z",
+      "people": [],
+      "organizations": [],
+      "keyphrases": []
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+- Problem 1:
+	+) Description: Cannot access to blob storage, no permission is provided
+	+) Solution: Enable CORS of the storage and generate SAS for needed file in the blob storage
+- Problem 2:
+	+) Description: The object detection model of Azure Custom Vision cannot achieve 75% precision with provided training images. Moreover, the model cannot detect lighter in test images as well 
+	+) Solution: I tried to collect more domain-specific lighter images on the internet, about 20 more. The model performance is better (achieve 75% with threshold 95%), and it can detect lighter in some test images. 

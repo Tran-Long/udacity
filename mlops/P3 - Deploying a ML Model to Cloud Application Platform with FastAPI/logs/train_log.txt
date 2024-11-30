@@ -1,0 +1,11 @@
+2023-12-22 00:50:55,801 - INFO - Loading data from data/census.csv
+2023-12-22 00:50:55,855 - INFO - Splitting data into train/test with test ration: 0.2
+2023-12-22 00:50:55,941 - INFO - Training decision tree model...
+2023-12-22 00:50:56,095 - INFO - Training decision tree model DONE
+2023-12-22 00:50:56,095 - INFO - Save [encoder, lb, dt_model] to ./model/dt.pkl
+2023-12-22 00:50:56,108 - INFO - Inferencing model...
+2023-12-22 00:50:56,117 - INFO - >>>Precision: 0.7199055861526357
+2023-12-22 00:50:56,117 - INFO - >>>Recall: 0.5783817951959545
+2023-12-22 00:50:56,117 - INFO - >>>Fbeta: 0.6414300736067297
+2023-12-22 00:50:56,117 - INFO - Calculating metrics on slices of categorical features in data
+2023-12-22 00:50:56,632 - INFO - Storing cat-slices results to ./results/slice_output.txt

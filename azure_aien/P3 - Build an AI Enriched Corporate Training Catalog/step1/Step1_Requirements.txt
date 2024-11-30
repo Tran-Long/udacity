@@ -1,0 +1,12 @@
+- User should be able to search for courses by all text fields as key words
+- User should be able to filter and facet courses on rating, duration, source, type, level and role
+- User should be able to see results about instructors information which derive from the description of internal training courses
+- User should be able to sort courses results on duration, level and rating
+
+- User should be able to search Curated Library for papers (and see DOI results) by:
+	+ all text fields as key words
+	+ authors
+	+ authors' institutions
+	+ publication name
+	+ publisher
+	+ publication date

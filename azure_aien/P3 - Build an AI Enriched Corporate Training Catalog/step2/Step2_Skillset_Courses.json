@@ -1,0 +1,36 @@
+{
+  "@odata.context": "https://longth28css.search.windows.net/$metadata#skillsets/$entity",
+  "@odata.etag": "\"0x8DA63D38FBF6AE0\"",
+  "name": "azuretable-skillset",
+  "description": "Skillset created from the portal. skillsetName: azuretable-skillset; contentField: PartitionKey; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+  "skills": [
+    {
+      "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+      "name": "#1",
+      "description": null,
+      "context": "/document/PartitionKey",
+      "defaultLanguageCode": "en",
+      "maxKeyPhraseCount": null,
+      "modelVersion": null,
+      "inputs": [
+        {
+          "name": "text",
+          "source": "/document/PartitionKey"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "keyPhrases",
+          "targetName": "keyphrases"
+        }
+      ]
+    }
+  ],
+  "cognitiveServices": {
+    "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
+    "description": "/subscriptions/6c39f60b-2bb1-4e37-ad64-faaf30beaca4/resourceGroups/aind-200690/providers/Microsoft.CognitiveServices/accounts/longth28cs",
+    "key": "fbe035e0f5514c949704c6b34a67f493"
+  },
+  "knowledgeStore": null,
+  "encryptionKey": null
+}
